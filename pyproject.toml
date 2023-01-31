@@ -17,3 +17,6 @@ dependencies = [
 
 [project.scripts]
 xtens = 'xtensible_cli.main:app'
+
+[[tool.isort]]
+profile = 'black'
