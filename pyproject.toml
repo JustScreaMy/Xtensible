@@ -1,0 +1,19 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'xtensible'
+version = '0.1.1'
+authors = [
+    { name = 'Jakub Kropáček' }
+]
+description = 'Command line utility, for all kinds of use cases'
+readme = 'README.md'
+license = { text = 'MIT' }
+dependencies = [
+    'typer==0.7.0'
+]
+
+[project.scripts]
+xtens = 'xtensible_cli.main:app'
