@@ -1,3 +1,3 @@
 import typer
 
-app = typer.Typer(name='config')
+app = typer.Typer(name="config")
