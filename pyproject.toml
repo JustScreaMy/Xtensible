@@ -17,3 +17,6 @@ dependencies = [
 
 [project.scripts]
 xtens = 'xtensible_cli.main:app'
+
+[tool.flake8]
+max-line-length = 88
